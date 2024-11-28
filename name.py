@@ -1,2 +1,2 @@
 a = input("What's your name?")
-print("The total characters in your name without counting the spaces in between is: " + str( len (a.replace (' ', '')) ))
+print("Hello " + a  + " Hope your'e doing well! \n" + "I can confirm that you're " + input("What's your age?") + " Year Old. \n" + "The total characters in your name counting the space in between is: " + str( len (a) )  + "\nThe total characters in your name without counting the space in between is: " + str(len(a.replace(' ', ''))))
