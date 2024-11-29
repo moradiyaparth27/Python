@@ -22,3 +22,9 @@ print(int(bmi3))
 
 # Fifth method is to use round function to decide how many digits should be there in float
 print(round(bmi, 5))
+
+# Sixth is to print str and int in a same print statement using fstring 
+print(f"Your BMI is: {round(bmi, 2)}")
+
+# Just prints how the calculation will be done using the user's input values
+print(f"Your BMI is calculated by this way: {weight}/({height}*{height})")
