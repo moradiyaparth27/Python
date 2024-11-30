@@ -30,4 +30,4 @@ print(f"Your BMI is: {round(bmi, 2)}")
 print(f"Your BMI is calculated by this way: {weight}/({height}*{height})")
 
 
-print(f"You have entered weight as: {weight} KG and height as: {height} m.")
+print(f"You have entered weight as: {weight} KG and height as: {height}m.")
