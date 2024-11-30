@@ -4,7 +4,9 @@ age = int(input("Enter your age:"))
 bill = 0
 
 # checks if the height is enoght to ride, then which ticket to buy: child, adult or senior.
-if height >= 170 and age < 12:
+if height >= 170 and age >= 45 and age <= 55:
+    print("You are free to go.")
+elif height >= 170 and age < 12:
     print("Please buy child ticket for $5.")
     bill = 5
 elif height >= 170 and age >= 12 and age <= 18:
