@@ -1,5 +1,5 @@
 print("Welcome to the roller coster ride:")
-height = float(input("Enter your height in meter:"))
+height = int(input("Enter your height in cm:"))
 
 if height > 1 :
     print("You're good to ride.")
