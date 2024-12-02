@@ -7,4 +7,3 @@ if user_input%5 == 0 :
         print("Buzz")
 elif user_input%3 ==0 :
     print("Bee")
-    
